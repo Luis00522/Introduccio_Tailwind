@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Introducció a Tailwind CSS</title>
+  </head>
+  <body>
+    <h1 class="mt-6 mx-4 mb-4 text-4xl font-bold">Tailwind ShowCase</h1>
+
+    <div class="bg-slate-100 p-4 h-40 mx-6">
+      <h2 class="text-2xl font-bold">Colors and Backgrounds</h2>
+      <div class="mt-4 flex">
+        <div
+          class="bg-slate-100 flex-grow h-20 border-2 border-slate-400"
+        ></div>
+        <div class="bg-red-200 flex-grow h-20 border-2 border-red-500"></div>
+        <div
+          class="bg-yellow-100 flex-grow h-20 border-2 border-yellow-400"
+        ></div>
+        <div
+          class="bg-green-100 flex-grow h-20 border-2 border-green-400"
+        ></div>
+      </div>
+    </div>
+
+    <div class="mt-4 bg-slate-100 p-4 pb-6 mx-6">
+      <div class="mt-4 flex">
+        <div
+          class="bg-slate-100 flex-grow h-20 border-2 border-slate-400"
+        ></div>
+        <div
+          class="bg-slate-200 flex-grow h-20 border-2 border-slate-400"
+        ></div>
+        <div
+          class="bg-slate-300 flex-grow h-20 border-2 border-slate-400"
+        ></div>
+        <div
+          class="bg-slate-400 flex-grow h-20 border-2 border-slate-400"
+        ></div>
+      </div>
+    </div>
+
+    <div class="mt-4 bg-slate-100 p-4 pb-6 mx-6">
+      <div>
+        <p class="text-2xl font-bold">Text</p>
+        <p class="text-xs text-slate-600">This is a small text.</p>
+        <p class="text-base text-slate-600">This is a base text.</p>
+        <p class="text-lg text-slate-600">This is a large text.</p>
+        <p class="text-xl text-slate-600">This is an extra large text.</p>
+        <p class="text-3xl text-slate-600">This is a 3x extra large text.</p>
+        <p class="text-4xl text-slate-600">This is a 4x extra large text.</p>
+        <p class="text-5xl text-slate-600">This is a 5x extra large text.</p>
+        <p class="text-6xl text-slate-600">This is a 6x extra large text.</p>
+        <p class="text-7xl text-slate-600">This is a 7x extra large text.</p>
+        <p class="text-8xl text-slate-600">This is a 8x extra large text.</p>
+        <p class="text-9xl text-slate-600">This is a 9x extra large text.</p>
+      </div>
+    </div>
+    <div class="mt-4 bg-slate-100 p-4 pb-6 mx-6">
+      <h1 class="text-3xl font-bold mb-3">Text Decoration</h1>
+      <p class="underline">This is an underlined text.</p>
+      <p class="line-through">This is a line-through text.</p>
+      <p class="underline line-through">
+        This is an underlined and line-through text.
+      </p>
+    </div>
+    <div class="mt-4 bg-slate-100 p-4 pb-6 mx-6">
+      <h1 class="text-3xl font-bold mb-3">Text Alignament</h1>
+      <p class="text-left">This is a left-aligned text.</p>
+      <p class="text-center">This is a center-aligned text.</p>
+      <p class="text-right">This is a right-aligned text.</p>
+    </div>
+
+    <div class="mt-4 bg-slate-100 p-4 pb-6 mx-6">
+      <h1 class="text-3xl font-bold mb-3">Sizes</h1>
+      <div class="mt-4 flex">
+        <div
+          class="bg-slate-100 flex-grow h-20 border-2 border-slate-400 flex items-center justify-center"
+        >
+          <p class="text-xs">XS</p>
+        </div>
+        <div
+          class="bg-slate-200 flex-grow h-20 border-2 border-slate-400 flex items-center justify-center"
+        >
+          <p class="text-sm">SM</p>
+        </div>
+        <div
+          class="bg-slate-300 flex-grow h-20 border-2 border-slate-400 flex items-center justify-center"
+        >
+          <p class="text-base">BASE</p>
+        </div>
+        <div
+          class="bg-slate-400 flex-grow h-20 border-2 border-slate-400 flex items-center justify-center"
+        >
+          <p class="text-lg">LG</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-4 bg-slate-100 p-4 pb-6 mx-6">
+      <h1 class="text-3xl font-bold mb-3">Borders</h1>
+      <div class="mt-4 flex">
+        <div
+          class="bg-slate-100 flex-grow h-20 border-2 border-slate-400"
+        ></div>
+        <div
+          class="bg-slate-200 flex-grow h-20 border-2 rounded-sm border-slate-400"
+        ></div>
+        <div
+          class="bg-slate-300 flex-grow h-20 border-2 rounded-lg border-slate-400"
+        ></div>
+        <div
+          class="bg-slate-400 flex-grow h-20 border-2 rounded-full border-slate-400"
+        ></div>
+      </div>
+    </div>
+
+    <div class="mt-4 bg-slate-100 p-4 pb-6 mx-6">
+      <h1 class="text-3xl font-bold mb-3">Margin</h1>
+      <div class="bg-slate-100 border-2 m-6 border-slate-400">
+        <p>This div has a margin of 1.5rem on all sides.</p>
+      </div>
+
+      <div class="bg-slate-200 border-2 mx-12 my-6 border-slate-400">
+        <p>
+          This div has a horizontal margin of 1.5rem and a vertical margin of
+          3rem.
+        </p>
+      </div>
+      <div class="bg-slate-400 mt-4 mb-12 mr-8 ml-24 border-slate-400">
+        <p>
+          This div has a margin of 1rem on the top, 2rem on the right, 3rem on
+          the bottom, and 4rem on the left.
+        </p>
+      </div>
+    </div>
+
+    <div class="mt-4 bg-slate-100 p-4 pb-6 mx-6">
+      <h1 class="text-3xl font-bold mb-3">Padding</h1>
+      <div class="bg-slate-100 border-2 p-6 border-slate-400">
+        <p>This div has a padding of 1.5rem on all sides.</p>
+      </div>
+
+      <div class="bg-slate-200 border-2 py-6 px-12 border-slate-400">
+        <p>
+          This div has a horizontal padding of 1.5rem and a vertical padding of
+          3rem.
+        </p>
+      </div>
+      <div class="bg-slate-400 pt-4 pr-8 pb-12 pl-24 border-slate-400">
+        <p>
+          This div has a padding of 1rem on the top, 2rem on the right, 3rem on
+          the bottom, and 4rem on the left.
+        </p>
+      </div>
+    </div>
+
+    <div class="mt-4 bg-slate-100 p-4 pb-6 mx-6">
+      <h1 class="text-3xl font-bold mb-3">Card 1</h1>
+      <div class="border border-gray-300 rounded-lg p-4">
+        <div
+          class="bg-stone-300 h-48 w-[300px] h-[200px] border-2 rounded-lg flex items-center justify-center"
+        >
+          <p class="text-3xl text-stone-500">300x200</p>
+        </div>
+
+        <div class="px-4 py-4">
+          <h2 class="font-bold text-2xl mb-2">Card Title</h2>
+          <p class="text-gray-700 text-xl mb-4">
+            This is a basic card example with an image and no flex.
+          </p>
+          <button
+            class="bg-blue-500 text-white text-xl font-bold py-2 px-5 rounded"
+          >
+            Button
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-4 bg-slate-100 p-4 pb-6 mx-6">
+      <h1 class="text-3xl font-bold mb-3">Card 2</h1>
+      <div class="border border-gray-300 rounded-lg p-3">
+        <div class="px-4 py-4">
+          <h2 class="font-bold text-2xl mb-2">Card Title</h2>
+          <p class="text-gray-700 text-xl mb-4">
+            This is a basic card example with no image and no flex.
+          </p>
+          <ul class="list-disc text-xl ml-6">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+          </ul>
+          <button
+            class="bg-blue-500 text-white text-xl font-bold py-2 px-5 rounded"
+          >
+            Button
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-4 bg-slate-100 p-4 pb-6 mx-6">
+      <h1 class="text-3xl font-bold mb-3">Buttons</h1>
+       
+          <button
+            class="bg-blue-500 text-white text-xl font-bold py-3 px-5 rounded"
+          >
+            Button 1
+          </button>
+          <button
+          class="bg-green-500 text-white text-xl font-bold py-3 px-5 rounded-3xl"
+        >
+          Button 2
+        </button>
+        <button
+        class="bg-red-500 text-white text-xl font-bold py-3 px-5 rounded-xl"
+      >
+        Button 3
+      </button>
+      </div>
+    </div>
+
+
+  </body>
+</html>
